@@ -56,6 +56,10 @@ const daftarResto = {
     <!-- awal booking -->
     <booking-form></booking-form>
     <!-- akhir booking -->
+
+    <!-- awal footer -->
+    <footer-copyright></footer-copyright>
+    <!-- akhir footer -->
     `
   }
 }

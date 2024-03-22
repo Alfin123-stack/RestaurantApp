@@ -15,7 +15,7 @@ class Hero extends HTMLElement {
       <source type="image/jpeg" media="(max-width: 600px)" srcset="./images/heros/hero-image_2-small.jpg">
       <source type="image/jpeg" media="(min-width: 600px)" srcset='./images/heros/hero-image_2-large.jpg' 
            alt="dirt rally poster">
-           <img src='./images/heros/hero-image_2.jpg' 
+           <img src='./images/heros/hero-image_2.webp' 
            alt="">
     </picture>
     <div class="over-lay">
