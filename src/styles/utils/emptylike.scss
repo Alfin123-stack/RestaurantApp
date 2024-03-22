@@ -1,0 +1,35 @@
+.empty-like{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 1.5rem;
+    font-size: 1rem;
+
+    i{
+        font-size: 7rem;
+        color: #ffc221;
+    }
+
+    button{
+        border: none;
+        min-width: 44px;
+        min-height: 44px;
+        padding: .8rem 1.8rem;
+        cursor: pointer;
+
+        font-family: inherit;
+        font-size: .8rem;
+        background-color: #ffc221;
+        color: white;
+        border-radius: 10px;
+        transition: .3s all;
+
+        &:hover{
+            background-color: #f9b700;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.food-recomend{
+    width: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    h2{
+        color: #ffc221;
+        padding: 2rem 0;
+        text-align: left;
+        font-size: 1.35rem;
+        padding: 10px;
+
+        @media screen and (min-width:768px) {
+          font-size: 2rem;
+        }
+    }
+
+
+}

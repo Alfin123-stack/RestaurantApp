@@ -1,0 +1,110 @@
+header{
+    width: 100%;
+    padding: 20px;
+    background-color: #ffc221;
+    color: white;
+    position: fixed;
+    box-shadow: 0 -5px 5px 5px rgba(0,0,0,.2);
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+
+    @media screen and (min-width : 768px) {
+      padding: 20px 80px;
+    }
+
+    .logo{
+      span{
+        font-size: 1.5rem;
+        font-weight: bolder;
+      }
+    }
+
+    #hamburgerMenu{
+      cursor: pointer;
+      min-width: 44px;
+      min-height: 44px;
+      display: inline-block;
+      padding: 10px;
+      border: none;
+      background: transparent;
+      z-index: 999;
+      
+      @media screen and (min-width : 768px) {
+        display: none;
+      }
+      svg{
+        color: white;
+        font-size: 25px;
+      }
+    }
+  nav{
+    position: absolute;
+    right: 0;
+    transform: translateX(500px);
+    
+    width: 50vw;
+    transition: all .5s;
+
+    @media screen and (min-width : 768px) {
+      transform: translateX(0);
+      flex-direction: row;
+      position: static;
+      width: 70%;
+    }
+    ul{
+        padding: 10px;
+        height: 100vh;
+        margin-top: 3em;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffc221;
+
+        @media screen and (min-width : 768px) {
+          height: auto;
+          padding: 0;
+          margin-top: 0;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          text-align: center;
+        }
+
+        li{
+            #home{
+              color: black;
+            }
+            a{
+              min-width: 44px;
+              min-height: 44px;
+              display: inline-block;
+              padding: 10px;
+              font-weight: 500;
+              text-decoration: none;
+              color: white;
+              font-size: 1rem;
+              transition: all .2s;
+
+              @media screen and (min-width : 768px) {
+                font-size: .9rem;
+              }
+
+              @media screen and (min-width : 992px) {
+                font-size: 1rem;
+              }
+            
+              &:hover{
+                color: black;
+              }
+        }
+    }
+  }
+}
+}
+.open{
+  transform: translateX(0);
+}
+.body{
+  opacity: .5;
+}

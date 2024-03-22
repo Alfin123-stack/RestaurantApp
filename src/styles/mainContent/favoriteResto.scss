@@ -1,0 +1,37 @@
+.favoriteResto{
+    padding: 20px;
+    width: 100%;
+    padding-top: 5rem;
+    h1{
+        font-size: 1.35rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: #ffc221;;
+
+        @media screen and (min-width:768px) {
+            font-size: 2rem;
+        }
+    }
+
+    #query{
+        min-width: 44px;
+        min-height: 44px;
+        margin-top: 3rem;
+        border: none;
+        border-bottom: 1px solid #ffc221;
+        font-family: inherit;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: bolder;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            border-bottom: 2px solid #ffbb00;
+        }
+        
+    }
+
+}

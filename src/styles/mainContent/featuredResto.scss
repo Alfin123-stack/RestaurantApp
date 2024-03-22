@@ -1,0 +1,17 @@
+.featured-restaurant{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .judul-fr{
+        color: #ffc221;
+        padding-bottom: 2rem;
+        text-align: left;
+        font-size: 1.35rem;
+        padding: 10px;
+        @media screen and (min-width:768px) {
+            font-size: 2rem;
+        }
+        
+    }
+
+}
