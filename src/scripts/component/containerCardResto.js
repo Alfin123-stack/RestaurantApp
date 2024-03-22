@@ -227,7 +227,7 @@ class ContainerCardResto extends HTMLElement {
       this._resto?.forEach(resto => {
         this.shadowDOM.innerHTML += createdCardresto(resto)
       })
-    }, 500)
+    }, 300)
   }
 }
 

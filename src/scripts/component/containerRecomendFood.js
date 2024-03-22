@@ -155,7 +155,7 @@ class ContainerCardFoodRecomend extends HTMLElement {
       menu?.d?.forEach(menuresto => {
         this.shadowDOM.innerHTML += cardFoodTemplate(menuresto)
       })
-    }, 500)
+    }, 300)
   }
 }
 

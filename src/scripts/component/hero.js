@@ -33,7 +33,7 @@ class Hero extends HTMLElement {
 
     setTimeout(() => {
       this.innerHTML = this.heroElement()
-    }, 500)
+    }, 300)
   }
 }
 

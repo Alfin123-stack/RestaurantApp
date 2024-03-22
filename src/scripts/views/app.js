@@ -46,7 +46,7 @@ class App {
       allRestaurant.innerHTML += await page.render()
       await page.afterRender()
       this._skipelement()
-    }, 1000)
+    }, 300)
   }
 
   async _renderDetail (page) {
@@ -63,7 +63,7 @@ class App {
       detail.innerHTML = await page.render()
       await page.afterRender()
       this._skipelement()
-    }, 1000)
+    }, 300)
   }
 
   _skipelement () {
