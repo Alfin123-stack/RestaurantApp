@@ -203,7 +203,7 @@ const errorRequest = (error) => `
 `
 const emptyLike = () => `
     <section class="empty-like">
-        <h1 class="judul-empty">Restoran tidak ditemukan</h1>
+        <h1 tabindex="0" class="judul-empty">Restoran tidak ditemukan</h1>
         <button type="button"  onclick="location.href='#/home';">Ayo cari</button>
     </section>
 `
