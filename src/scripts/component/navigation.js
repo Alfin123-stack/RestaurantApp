@@ -172,8 +172,6 @@ class Navigation extends HTMLElement {
                 <li><a href="#/favorite">Favorite</a></li>
                 <li><a href="https://www.linkedin.com/in/muhammad-alfin-alfarizi-51a79a256/" target="_blank">About Us</a></li>
                 <li><a href="#explore">Explore Restaurant</a></li>
-                <li><a href="#rekomendasi">Rekomendasi</a></li>
-                <li><a href="#booking">Booking Tempat</a></li>
             </ul>
         </nav>
     </header>
