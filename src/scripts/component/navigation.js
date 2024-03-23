@@ -92,7 +92,6 @@ class Navigation extends HTMLElement {
             transform: translateX(0);
             flex-direction: row;
             position: static;
-            width: 70%;
           }
         }
         :host  header nav ul {
