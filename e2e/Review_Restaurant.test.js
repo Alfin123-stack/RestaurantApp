@@ -8,6 +8,7 @@ Before(({ I }) => {
 })
 
 Scenario('Review restaurant', async ({ I }) => {
+  I.waitForElement('#loading', 5)
   I.seeElement('#loading')
 
   I.waitForVisible('.title-resto a', 5)

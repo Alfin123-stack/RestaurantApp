@@ -13,6 +13,7 @@ Scenario('Liking one restaurant', async ({ I }) => {
 
   I.amOnPage('/#/home')
 
+  I.waitForElement('#loading', 5)
   I.seeElement('#loading')
 
   I.waitForVisible('.title-resto', 5)
@@ -37,6 +38,8 @@ Scenario('Unliking one restaurant', async ({ I }) => {
   I.see('Restoran tidak ditemukan', '.judul-empty')
 
   I.amOnPage('/#/home')
+
+  I.waitForElement('#loading', 5)
   I.seeElement('#loading')
 
   I.waitForVisible('.title-resto', 5)
